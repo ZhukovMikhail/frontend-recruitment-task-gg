@@ -1,0 +1,39 @@
+.body{
+    position: relative;
+    width: 1440px;
+    display: flex; 
+}
+.box {
+    display: flex;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 90px;
+    
+
+    &_label {
+        margin-left: 95px;
+        width: 380px;
+        padding: 40px 0px;
+        }
+    // &_picture {
+    //     }
+    &_image {
+            display: block;
+            width: 505px;
+            height: 330px;
+        }
+    &_title {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 120%;
+        }
+        &_text {
+            margin-top: 24px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: justify;
+        }
+        
+    
+}

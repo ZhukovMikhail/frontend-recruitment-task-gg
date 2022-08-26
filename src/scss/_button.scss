@@ -1,0 +1,14 @@
+.button {
+    margin-top: 48px;
+    width: 128px;
+    height: 48px;
+    background: #E4C1AE;
+    border-radius: 32px;
+    border: none;
+
+    &_text {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
