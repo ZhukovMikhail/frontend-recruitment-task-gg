@@ -1,9 +1,9 @@
 import './sass/main.scss';
-
-// import { productsList } from './js/template'; for template
 import refs from './js/refs';
 
-//======================== nodes in template case ==============================
+// import { productsList } from './js/template'; for multiple cards template
+
+//======================== nodes for multiple cards template case ==============================
 // refs.gallery.insertAdjacentHTML('beforeend', productsList);
 // const productBox = document.querySelector('.box');
 // const productButton = document.querySelector('.button');

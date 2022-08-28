@@ -1,45 +1,38 @@
 <!-- <ul class="gallery js-gallery"> ------- for templating
   <li> -->
 <article class="box">
-  <div class="box_picture">
-    <img
+  <picture class="box_image">
+    <source
       class="box_image"
       srcset="
-        /images/w_200.jpg   200w,
-        /images/w_450.jpg   450w,
-        /images/w_480.jpg   480w,
-        /images/w_538.jpg   538w,
-        /images/w_596.jpg   596w,
-        /images/w_630.jpg   630w,
-        /images/w_694.jpg   694w,
-        /images/w_720.jpg   720w,
-        /images/w_767.jpg   767w,
+        /images/w_200.jpg 200w,
+        /images/w_450.jpg 450w,
+        /images/w_630.jpg 630w,
+        /images/w_767.jpg 767w
+      "
+      media="(max-width: 768px)"
+      sizes="90vw"
+    />
+    <source
+      srcset="/images/4_3w_538.jpg 538w, /images/4_3w_694.jpg 694w"
+      media="(max-width: 1199px)"
+      sizes="(min-width: 500px) 500px, 80vw"
+    />
+    <source
+      class="box_image"
+      srcset="
         /images/w_784.jpg   784w,
         /images/w_1002.jpg 1002w,
         /images/w_1234.jpg 1234w,
         /images/w_1394.jpg 1394w,
         /images/w_1400.jpg 1440w
       "
-      sizes="
-      (min-width: 200px) 200w, 
-      (min-width: 450px) 450w,
-      (min-width: 480px) 480w,
-      (min-width: 538px) 538w,
-      (min-width: 596px) 596w, 
-      (min-width: 630px) 630w
-      (min-width: 694px) 694w
-      (min-width: 720px) 720w
-      (min-width: 767px) 767w
-      (min-width: 784px) 784w
-      (min-width: 1002px) 1002w
-      (min-width: 1234px) 1234w
-      (min-width: 1394px) 1394w
-      (min-width: 1440px) 1440w
-      "
-      src="./images/w_200.jpg"
-      alt="ocean"
+      media="(min-width: 1199px)"
+      sizes="(min-width: 505px) 505px, 80vw"
     />
-  </div>
+    <img class="box_image" src="/images/w_200.jpg" alt="ocean" />
+  </picture>
+
   <div class="box_label">
     <h2 class="box_title">Lorem Ipsum</h2>
     <p class="box_text">
@@ -56,6 +49,32 @@
 </ul> -->
 
 <!-- 
+/images/w_480.jpg   480w,
+        /images/16_9w_596.jpg 596w, 
+        /images/16_9w_720.jpg 720w
+
+        
+sizes="
+      (min-width: 200px) 200w, 
+      (min-width: 450px) 450w,
+      (min-width: 538px) 538w,
+      (min-width: 596px) 596w, 
+      (min-width: 630px) 630w
+      (min-width: 694px) 694w
+      (min-width: 720px) 720w
+      (min-width: 767px) 767w
+  
+      "
+      
+
+      (min-width: 480px) 480w,
+      (min-width: 784px) 784w
+      (min-width: 1002px) 1002w
+      (min-width: 1234px) 1234w
+      (min-width: 1394px) 1394w
+      (min-width: 1440px) 1440w
+
+
 w200: './images/w_200.jpg 200w,
 w450: ./images/w_450.jpg 450w,
 w480: ./images/w_480.jpg 480w,

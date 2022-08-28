@@ -2,9 +2,16 @@
   margin-top: 8px;
   width: 128px;
   height: 48px;
-  background: #e4c1ae;
+  background: var(--btn-color);
   border-radius: 32px;
   border: none;
+  transition: 250ms;
+  &:hover,
+  &:focus {
+    background-color: var(--hover-btn-color);
+    transition: var(--transition-hover-focus);
+    box-shadow: var(--box-shadow);
+  }
 
   &_text {
     color: #ffffff;
