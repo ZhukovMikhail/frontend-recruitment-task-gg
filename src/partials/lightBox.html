@@ -1,3 +1,13 @@
-<!-- <div class="lightbox_content is-hidden">
-  <img class="lightbox_image" src="" alt="" />
-</div> -->
+<div class="lightbox is-hidden">
+  <picture class="lightbox_image">
+    <source srcset="/images/16_9w_596.jpg 596w" media="(max-width: 768px)" sizes="596px" />
+    <source
+      srcset="/images/16_9w_596.jpg 596w, /images/16_9w_720.jpg 720w"
+      media="(min-width: 769px)"
+      sizes="720px"
+    />
+
+    <img class="lightbox_image" src="/images/16_9w_596.jpg" alt="ocean" />
+  </picture>
+  <include src="./partials/modal_close-btn.html"></include>
+</div>

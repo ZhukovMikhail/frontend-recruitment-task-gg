@@ -6,6 +6,7 @@ const modal = document.querySelector('.modal');
 const modalCounter = document.querySelector('.modal_counter');
 const modalClearCounter = document.querySelector('.modal_clear-couter');
 const closeButton = document.querySelector('.modal_close-btn');
+const imageOverlay = document.querySelector('.lightbox');
 export default {
   // gallery, ---for multiple cards template
   productBox,
@@ -15,4 +16,5 @@ export default {
   modalCounter,
   modalClearCounter,
   closeButton,
+  imageOverlay,
 };

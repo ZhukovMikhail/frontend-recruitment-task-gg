@@ -3,16 +3,19 @@
   top: 0;
   left: 0;
   right: 0;
-  // bottom: 0;
+  bottom: 0;
   background: rgb(18, 18, 18, 0.5);
   overflow: hidden;
   min-height: 100vh;
 }
-.modal {
+.modal-template {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.modal {
+  @extend .modal-template;
   width: 920px;
   height: 210px;
   background-color: #ffffff;
