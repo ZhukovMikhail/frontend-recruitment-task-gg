@@ -1,4 +1,4 @@
-import './scss/main.scss';
+import './sass/main.scss';
 
 // import { productsList } from './js/template'; for template
 import refs from './js/refs';
