@@ -14,12 +14,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .modal {
   @extend .modal-template;
-  width: 920px;
+  width: 70vw;
   height: 210px;
   background-color: #ffffff;
-  padding: 56px 95px;
+  padding: 3.8vw 6.5vw;
 
   &_title {
     font-weight: 700;
@@ -59,4 +60,10 @@
 }
 .is-hidden {
   display: none;
+}
+@media (min-width: 1200px) {
+  .modal {
+    width: 920px;
+    padding: 56px 95px;
+  }
 }
