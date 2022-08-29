@@ -8,15 +8,11 @@ p {
   margin: 0px;
 }
 body {
-  position: relative;
   margin: 0;
-
   font-family: var(--main-font);
   color: var(--font-color);
-  position: relative;
   font-family: var(--main-font);
-  width: 100vw;
-  // background-color: rgb(172, 253, 191);
+  height: 100vh;
 }
 ul,
 li {
